@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URI = "mongodb+srv://rp1378265:rp1378265@cluster0.qsmfexr.mongodb.net/myDB"
+const URI =  "mongodb url"
 const DB = ()=>{
     mongoose.connect(URI).then(()=>{
         console.log('your mongodb Connected ');
